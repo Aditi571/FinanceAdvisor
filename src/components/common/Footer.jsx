@@ -13,15 +13,11 @@ const Footer = () => {
                 <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="mb-4 md:mb-0">
-                            <h2 className="text-lg font-bold">FinSage AI</h2>
+                            <h2 className="text-lg font-bold">FinanceAdvisor AI</h2>
                             <p className="mt-2 text-sm text-gray-400">
                                 Empowering your financial journey with AI-driven insights and personalized guidance.
                             </p>
-                            <p className="mt-4 text-sm text-gray-400">
-                                <a href="mailto:rahulkumar20000516@gmail.com" className="hover:text-white">
-                                    rahulkumar20000516@gmail.com
-                                </a>
-                            </p>
+                           
                         </div>
 
                         {/* Quick Links */}
@@ -53,72 +49,9 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        {/* Legal */}
-                        <div>
-                            <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4 ">
-                                Legal
-                            </h3>
-                            <ul className="space-y-2">
-                                <li>
-                                    <button 
-                                        onClick={() => setShowPrivacyPolicy(true)} 
-                                      className="text-gray-400 hover:text-white cursor-pointer"
-
-                                    >
-                                        Privacy Policy
-                                    </button>
-                                </li>
-                                <li>
-                                    <button 
-                                        onClick={() => setShowTerms(true)} 
-                                        className="text-gray-400 hover:text-white cursor-pointer "
-                                    >
-                                        Terms of Service
-                                    </button>
-                                </li>
-                                <li>
-                                    <Link to="/contact" className="text-gray-400 hover:text-white">
-                                        Contact Us
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
 
-                    {/* Social Media Links */}
-                    <div className="mt-8 flex justify-center space-x-6">
-                        <a href="https://www.facebook.com/imrahul97/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                            <span className="sr-only">Facebook</span>
-                            <FaFacebookF className="h-5 w-5" />
-                        </a>
-                        <a href="https://x.com/imrahul165" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                            <span className="sr-only">Twitter</span>
-                            <FaTwitter className="h-5 w-5" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/imrahul05/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                            <span className="sr-only">LinkedIn</span>
-                            <FaLinkedinIn className="h-5 w-5" />
-                        </a>
-                        <a href="https://github.com/imRahul05" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                            <span className="sr-only">GitHub</span>
-                            <FaGithub className="h-5 w-5" />
-                        </a>
-                        <a href="https://www.instagram.com/imrahul512" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                            <span className="sr-only">Instagram</span>
-                            <FaInstagram className="h-5 w-5" />
-                        </a>
-                    </div>
-
-                    {/* Copyright */}
-                    <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-                        <p className="text-sm text-gray-400">
-                            &copy; {year} FinSage AI. All rights reserved.
-                        </p>
-                        <p className="text-xs text-gray-500 mt-2">
-  Made with love by Rahul <span className="text-red-500">❤️</span>
-</p>
-
-                    </div>
+                 
                 </div>
             </footer>
 
@@ -138,7 +71,7 @@ const Footer = () => {
                         <div className="p-6">
                             <h3 className="text-lg font-semibold mb-3">1. Information We Collect</h3>
                             <p className="mb-4 text-gray-700">
-                                FinSage AI collects personal information that you voluntarily provide when using our services. This may include your name, email address, and financial information necessary for providing our services. We also collect usage data to improve your experience.
+                                FinanceAdvisor AI collects personal information that you voluntarily provide when using our services. This may include your name, email address, and financial information necessary for providing our services. We also collect usage data to improve your experience.
                             </p>
 
                             <h3 className="text-lg font-semibold mb-3">2. How We Use Your Information</h3>
@@ -153,7 +86,7 @@ const Footer = () => {
 
                             <h3 className="text-lg font-semibold mb-3">4. Third-Party Services</h3>
                             <p className="mb-4 text-gray-700">
-                                FinSage AI uses third-party services such as Firebase for user authentication and data storage. These services have their own privacy policies, and we encourage you to review them.
+                                FinanceAdvisor AI uses third-party services such as Firebase for user authentication and data storage. These services have their own privacy policies, and we encourage you to review them.
                             </p>
 
                             <h3 className="text-lg font-semibold mb-3">5. Your Rights</h3>
@@ -201,12 +134,12 @@ const Footer = () => {
                         <div className="p-6">
                             <h3 className="text-lg font-semibold mb-3">1. Acceptance of Terms</h3>
                             <p className="mb-4 text-gray-700">
-                                By accessing or using FinSage AI, you agree to be bound by these Terms of Service. If you do not agree to these Terms, you should not use our services.
+                                By accessing or using FinanceAdvisor AI, you agree to be bound by these Terms of Service. If you do not agree to these Terms, you should not use our services.
                             </p>
 
                             <h3 className="text-lg font-semibold mb-3">2. Description of Service</h3>
                             <p className="mb-4 text-gray-700">
-                                FinSage AI provides AI-powered financial advisory services, including expense tracking, investment recommendations, and financial planning. We do not provide professional financial advice, and our services are for informational purposes only.
+                                FinanceAdvisor AI provides AI-powered financial advisory services, including expense tracking, investment recommendations, and financial planning. We do not provide professional financial advice, and our services are for informational purposes only.
                             </p>
 
                             <h3 className="text-lg font-semibold mb-3">3. User Accounts</h3>
@@ -216,12 +149,12 @@ const Footer = () => {
 
                             <h3 className="text-lg font-semibold mb-3">4. User Content</h3>
                             <p className="mb-4 text-gray-700">
-                                You retain ownership of any financial data and personal information you provide to FinSage AI. By submitting this data, you grant us a license to use it for providing and improving our services.
+                                You retain ownership of any financial data and personal information you provide to FinanceAdvisor AI. By submitting this data, you grant us a license to use it for providing and improving our services.
                             </p>
 
                             <h3 className="text-lg font-semibold mb-3">5. Limitation of Liability</h3>
                             <p className="mb-4 text-gray-700">
-                                FinSage AI is not liable for any financial decisions you make based on our recommendations. Our insights are generated by AI algorithms and should be considered alongside professional financial advice.
+                                FinanceAdvisor AI is not liable for any financial decisions you make based on our recommendations. Our insights are generated by AI algorithms and should be considered alongside professional financial advice.
                             </p>
 
                             <h3 className="text-lg font-semibold mb-3">6. Termination</h3>
