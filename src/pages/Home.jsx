@@ -87,34 +87,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="relative">
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <div className="ml-16">
-                  <h3 className="text-lg leading-6 font-medium text-gray-900">"What If" Scenarios</h3>
-                  <p className="mt-2 text-base text-gray-500">
-                    Simulate career changes, investment strategies, and major purchases to visualize their impact on your financial future.
-                  </p>
-                </div>
-              </div>
-
-              <div className="relative">
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                </div>
-                <div className="ml-16">
-                  <h3 className="text-lg leading-6 font-medium text-gray-900">Behavior-Based Analytics</h3>
-                  <p className="mt-2 text-base text-gray-500">
-                    Detect spending patterns, identify leaks, and receive AI-powered suggestions tailored to Indian context and categories.
-                  </p>
-                </div>
-              </div>
-
+             
               <div className="relative">
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -167,25 +140,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Privacy Section */}
-      <div className="bg-gray-50 pt-12 pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">Privacy First</h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Your data belongs to you
-            </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-              We don't sell your data to banks or lenders. Your financial information stays private and secure.
-            </p>
-            <div className="mt-6">
-              <p className="text-base text-gray-500">
-                Compliant with India's Digital Personal Data Protection Act, 2023
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 <Footer/>
     
     </div>

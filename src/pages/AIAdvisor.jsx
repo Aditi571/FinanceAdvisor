@@ -275,7 +275,7 @@ function AIAdvisor() {
     setAiResponse("");
     
     try {
-      const model = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY).getGenerativeModel({ model: "gemini-1.5-flash" });
+      const model = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY).getGenerativeModel({ model: "gemini-2.5-flash" });
       
       // Create a prompt that includes the user's question and their financial data
       const prompt = `
@@ -468,12 +468,6 @@ function AIAdvisor() {
       </div>
 
       <Tabs defaultValue="personalAdvice" className="w-full" onValueChange={setActiveTab} value={activeTab}>
-        <TabsList className="grid grid-cols-4 mb-8">
-          <TabsTrigger value="personalAdvice">Personal Advice</TabsTrigger>
-          <TabsTrigger value="spendingAnalysis">Spending Analysis</TabsTrigger>
-          <TabsTrigger value="scenarios">What-If Scenarios</TabsTrigger>
-          <TabsTrigger value="backwardAnalysis">Backward Analysis</TabsTrigger>
-        </TabsList>
         
         {/* Personal Advice Tab */}
         <TabsContent value="personalAdvice" className="space-y-4">

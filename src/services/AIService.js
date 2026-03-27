@@ -7,7 +7,7 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 
 export async function getFinancialAdvice(financialData) {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite-preview-09-2025" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     
     const prompt = `
       As a financial advisor, provide personalized advice based on the following financial information:
@@ -58,7 +58,7 @@ Rules:
 
 export async function simulateScenario(currentData, scenarioParams) {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite-preview-09-2025" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     
     const prompt = `
       As a financial simulator, analyze this "What If" scenario:
@@ -99,7 +99,7 @@ export async function simulateScenario(currentData, scenarioParams) {
 
 export async function analyzeSpendingBehavior(transactions) {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite-preview-09-2025" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     
     const prompt = `
       As a spending behavior analyst, review these transactions:
@@ -136,7 +136,7 @@ export async function analyzeSpendingBehavior(transactions) {
 
 export async function getBackwardAnalysis(historicalDecisions) {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite-preview-09-2025" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     
     const prompt = `
       As a financial analyst, review these past financial decisions:

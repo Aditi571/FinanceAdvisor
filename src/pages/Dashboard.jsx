@@ -304,16 +304,7 @@ function Dashboard() {
    <div className="mt-12">
         <h3 className="text-lg leading-6 font-medium text-gray-900 mb-4">Quick Actions</h3>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          <Link to="/scenarios" className="block hover:bg-gray-50">
-            <div className="bg-white overflow-hidden shadow rounded-lg">
-              <div className="px-4 py-5 sm:p-6">
-                <h3 className="text-lg font-medium text-blue-600">Run "What-If" Scenarios</h3>
-                <p className="mt-2 text-sm text-gray-500">
-                  Simulate career changes, investment strategies, or major purchases
-                </p>
-              </div>
-            </div>
-          </Link>
+          
           <Link to="/analytics" className="block hover:bg-gray-50">
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
