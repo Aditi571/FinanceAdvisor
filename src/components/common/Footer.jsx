@@ -46,6 +46,18 @@ const Footer = () => {
                                         Scenarios
                                     </Link>
                                 </li>
+                                <li>
+    <button
+        onClick={() => setShowPrivacyPolicy(true)}
+        className="text-black hover:text-white"
+    >
+        Privacy Policy
+    </button>
+
+    <button  onClick={() => setShowTerms(true)} className="text-black hover:text-white ml-5">
+    Terms of Service
+</button>
+</li>
                             </ul>
                         </div>
 
@@ -101,10 +113,10 @@ const Footer = () => {
 
                             <h3 className="text-lg font-semibold mb-3">7. Contact Us</h3>
                             <p className="mb-4 text-gray-700">
-                                If you have any questions about this Privacy Policy, please contact us at contact@finsage-ai.com.
+                                If you have any questions about this Privacy Policy, please contact us.
                             </p>
 
-                            <p className="text-sm text-gray-500 mt-6">Last updated: April 12, 2025</p>
+                            <p className="text-sm text-gray-500 mt-6">Last updated: April 15, 2026</p>
                         </div>
                         <div className="p-4 border-t flex justify-end">
                             <button 
